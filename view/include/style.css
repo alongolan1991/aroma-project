@@ -1,0 +1,140 @@
+body{
+    background-color:#efefef;
+}
+.wrapper {
+  margin: 0px auto;
+  width: 70%;
+  text-align: right;
+
+}
+
+.nav{
+    background-color: #efefef !important;
+}
+
+.row div[class^="col"] {
+  padding: 30px;
+}
+
+.row {
+    margin : 0;
+    background: white;
+}
+
+ul {
+  list-style-type: none;
+  padding : 0;
+}
+
+li a {
+  text-align: right;
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  cursor: pointer;
+  color: black;
+}
+
+.categoryIcon {
+  width: 38px;
+  display: flex;
+  justify-content: center;
+  margin-left: 5px;
+}
+
+li a:hover {
+  color: red;
+}
+
+.category-items {
+  display: none;
+}
+
+.category-items.active {
+    display: block;
+}
+
+/* .show {
+  display: block;
+} */
+
+.list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+}
+
+.product {
+  text-decoration: none;
+  color: black;
+  font-size : 14px;
+}
+
+a li:hover {
+  color: red;
+}
+
+.category-picture {
+  display: none;
+}
+
+.category-picture.active {
+    display: block;
+}
+
+.medProductPicture {
+  width: 75%;
+}
+
+.productsGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+}
+
+.textProduct {
+  color: black;
+  font-weight: bold;
+}
+
+.productsGrid a {
+  text-decoration: none;
+}
+
+.productHeader {
+  /* float :right; */
+  font-weight: bold;
+}
+
+tr.border_bottom td,
+th {
+  border-bottom: 1px solid #d9d9d9;
+  padding: 10px 5px;
+}
+
+.productDescription {
+  text-align: right;
+}
+
+.bigProductPicture {
+  width: 100%;
+}
+
+.centerText {
+  text-align: center;
+}
+
+
+.category-link{
+    font-size: 14px;
+}
+
+.container1{
+    height: 600px;
+    background: white;
+}
+
+.product:hover{
+    color: black;
+    text-decoration: none;
+}
