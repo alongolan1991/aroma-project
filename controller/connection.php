@@ -1,7 +1,7 @@
 <?php
 $servername = "localhost";
-$username = "alongo";
-$password = "OaBpT2Mzm8THLAyv";
+$username = "root";
+$password = "";
 $dbname = "aromamenu";
 header('Content-Type: text/html; charset=utf-8');
 
