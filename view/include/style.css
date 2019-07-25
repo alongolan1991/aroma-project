@@ -1,29 +1,25 @@
-body{
-    background-color:#efefef;
+body {
+  background-color: #efefef;
 }
+
 .wrapper {
-  margin: 0px auto;
-  width: 70%;
+  min-height: 100vh;
+  background-color: #fff;
   text-align: right;
-
 }
 
-.nav{
-    background-color: #efefef !important;
+.nav {
+  background-color: #efefef;
 }
 
-.row div[class^="col"] {
-  padding: 30px;
-}
-
-.row {
-    margin : 0;
-    background: white;
+.with-padding {
+  padding : 30px;
 }
 
 ul {
   list-style-type: none;
-  padding : 0;
+  padding: 0;
+  margin: 0;
 }
 
 li a {
@@ -35,7 +31,7 @@ li a {
   color: black;
 }
 
-.categoryIcon {
+.category-icon {
   width: 38px;
   display: flex;
   justify-content: center;
@@ -48,93 +44,71 @@ li a:hover {
 
 .category-items {
   display: none;
+  font-size: 14px;
 }
-
-.category-items.active {
-    display: block;
-}
-
-/* .show {
-  display: block;
-} */
 
 .list {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-gap: 10px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 10px;
 }
 
 .product {
-  text-decoration: none;
   color: black;
-  font-size : 14px;
-}
-
-a li:hover {
-  color: red;
 }
 
 .category-picture {
   display: none;
 }
 
-.category-picture.active {
-    display: block;
-}
 
-.medProductPicture {
+.med-product-picture {
   width: 75%;
 }
 
-.productsGrid {
+.products-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 10px;
 }
 
-.textProduct {
+.text-product {
   color: black;
   font-weight: bold;
 }
 
-.productsGrid a {
+.products-grid a {
   text-decoration: none;
 }
 
-.productHeader {
-  /* float :right; */
+.product-header {
   font-weight: bold;
 }
 
-tr.border_bottom td,
+tr.border-bottom td,
 th {
   border-bottom: 1px solid #d9d9d9;
   padding: 10px 5px;
 }
 
-.productDescription {
+.product-description {
   text-align: right;
 }
 
-.bigProductPicture {
+.big-product-picture {
   width: 100%;
 }
 
-.centerText {
+.center-text {
   text-align: center;
 }
 
 
-.category-link{
-    font-size: 14px;
+.category-link {
+  font-size: 14px;
 }
 
-.container1{
-    height: 600px;
-    background: white;
-}
-
-.product:hover{
-    color: black;
-    text-decoration: none;
+.product:hover {
+  color: black;
+  text-decoration: none;
 }
