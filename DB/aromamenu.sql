@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: יולי 22, 2019 בזמן 03:55 PM
+-- Generation Time: יולי 25, 2019 בזמן 10:54 AM
 -- גרסת שרת: 10.3.16-MariaDB
 -- PHP Version: 7.3.7
 
@@ -72,7 +72,7 @@ CREATE TABLE `product` (
   `cholesterol` float DEFAULT NULL,
   `sodium` float DEFAULT NULL,
   `picture` varchar(200) CHARACTER SET hebrew DEFAULT NULL,
-  `categoryid` int(11) DEFAULT NULL,
+  `category_id` int(11) DEFAULT NULL,
   `name` varchar(100) CHARACTER SET hebrew DEFAULT NULL,
   `vegan` tinyint(1) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
@@ -81,7 +81,7 @@ CREATE TABLE `product` (
 -- הוצאת מידע עבור טבלה `product`
 --
 
-INSERT INTO `product` (`id`, `description`, `gram`, `energy`, `protein`, `carbohydrate`, `fats`, `fatty_acids`, `cholesterol`, `sodium`, `picture`, `categoryid`, `name`, `vegan`) VALUES
+INSERT INTO `product` (`id`, `description`, `gram`, `energy`, `protein`, `carbohydrate`, `fats`, `fatty_acids`, `cholesterol`, `sodium`, `picture`, `category_id`, `name`, `vegan`) VALUES
 (1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'https://www.aroma.co.il/_media/media/43/218.jpg', 1, 'אספרסו', 0),
 (2, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'https://www.aroma.co.il/_media/media/43/217.jpg', 1, 'אספרסו כפול', 0),
 (3, NULL, 210, 37.1, 2, 3, 1.9, 1.1, 5.6, 31, 'https://www.aroma.co.il/_media/media/43/228.jpg', 1, 'קפוצ\'ינו', 0),
